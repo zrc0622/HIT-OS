@@ -43,7 +43,7 @@
 00000000000i[USBCTL] Pluggable USB devices
 00000000000i[USBCTL]   floppy mouse tablet keypad keyboard hub disk cdrom
 00000000000i[USBCTL]   printer
-00000000000i[MEM0  ] allocated memory at 0000027EB6C8E040. after alignment, vector=0000027EB6C8F000
+00000000000i[MEM0  ] allocated memory at 000001DF6BAC5040. after alignment, vector=000001DF6BAC6000
 00000000000i[MEM0  ] 16.00MB
 00000000000i[MEM0  ] mem block size = 0x00020000, blocks=128
 00000000000i[MEM0  ] rom at 0xfffe0000/131072 ('C:\software\bochs\Bochs-2.7/BIOS-bochs-latest')
@@ -54,7 +54,7 @@
 00000000000i[DEV   ] PIIX3 PCI-to-ISA bridge present at device 1, function 0
 00000000000i[PLUGIN] init_dev of 'cmos' plugin device by virtual method
 00000000000i[CMOS  ] Using local time for initial clock
-00000000000i[CMOS  ] Setting initial clock to: Sun Oct 29 23:37:27 2023 (time0=1698593847)
+00000000000i[CMOS  ] Setting initial clock to: Sun Nov  5 23:07:39 2023 (time0=1699196859)
 00000000000i[PLUGIN] init_dev of 'dma' plugin device by virtual method
 00000000000i[DMA   ] channel 4 used by cascade
 00000000000i[PLUGIN] init_dev of 'pic' plugin device by virtual method
@@ -247,22 +247,22 @@
 00014657444i[FLOPPY] read() on floppy image returns 0
 00014701888i[FLOPPY] read() on floppy image returns 0
 00014746332i[FLOPPY] read() on floppy image returns 0
-00014800599i[CPU0  ] CPU is in protected mode (active)
-00014800599i[CPU0  ] CS.mode = 32 bit
-00014800599i[CPU0  ] SS.mode = 32 bit
-00014800599i[CPU0  ] EFER   = 0x00000000
-00014800599i[CPU0  ] | EAX=00000041  EBX=00000000  ECX=00000080  EDX=0000ef00
-00014800599i[CPU0  ] | ESP=00000e4c  EBP=00000000  ESI=00000598  EDI=00000998
-00014800599i[CPU0  ] | IOPL=0 id vip vif ac vm rf nt of df IF tf sf ZF af PF cf
-00014800599i[CPU0  ] | SEG sltr(index|ti|rpl)     base    limit G D
-00014800599i[CPU0  ] |  CS:0008( 0001| 0|  0) 00000000 007fffff 1 1
-00014800599i[CPU0  ] |  DS:0017( 0002| 1|  3) 00000000 003fffff 1 1
-00014800599i[CPU0  ] |  SS:0010( 0002| 0|  0) 00000000 007fffff 1 1
-00014800599i[CPU0  ] |  ES:0000( 0002| 0|  0) 00000000 007fffff 1 1
-00014800599i[CPU0  ] |  FS:0000( 0002| 0|  0) 00000000 007fffff 1 1
-00014800599i[CPU0  ] |  GS:0000( 0002| 0|  0) 00000000 007fffff 1 1
-00014800599i[CPU0  ] | EIP=00000166 (00000166)
-00014800599i[CPU0  ] | CR0=0x60000011 CR2=0x00000000
-00014800599i[CPU0  ] | CR3=0x00000000 CR4=0x00000000
-00014800599i[CMOS  ] Last time is 1698593850 (Sun Oct 29 23:37:30 2023)
-00014800599i[SIM   ] quit_sim called with exit code 0
+00014840582i[CPU0  ] CPU is in protected mode (active)
+00014840582i[CPU0  ] CS.mode = 32 bit
+00014840582i[CPU0  ] SS.mode = 32 bit
+00014840582i[CPU0  ] EFER   = 0x00000000
+00014840582i[CPU0  ] | EAX=00000042  EBX=00000000  ECX=00000000  EDX=00000000
+00014840582i[CPU0  ] | ESP=000010b8  EBP=00000000  ESI=00000000  EDI=00000000
+00014840582i[CPU0  ] | IOPL=0 id vip vif ac vm rf nt of df IF tf sf zf af pf cf
+00014840582i[CPU0  ] | SEG sltr(index|ti|rpl)     base    limit G D
+00014840582i[CPU0  ] |  CS:0008( 0001| 0|  0) 00000000 007fffff 1 1
+00014840582i[CPU0  ] |  DS:0017( 0002| 1|  3) 00000000 003fffff 1 1
+00014840582i[CPU0  ] |  SS:0010( 0002| 0|  0) 00000000 007fffff 1 1
+00014840582i[CPU0  ] |  ES:0017( 0002| 1|  3) 00000000 003fffff 1 1
+00014840582i[CPU0  ] |  FS:0017( 0002| 1|  3) 00000000 003fffff 1 1
+00014840582i[CPU0  ] |  GS:0017( 0002| 1|  3) 00000000 003fffff 1 1
+00014840582i[CPU0  ] | EIP=0000016b (0000016b)
+00014840582i[CPU0  ] | CR0=0x60000019 CR2=0x00000000
+00014840582i[CPU0  ] | CR3=0x00000000 CR4=0x00000000
+00014840582i[CMOS  ] Last time is 1699196862 (Sun Nov  5 23:07:42 2023)
+00014840582i[SIM   ] quit_sim called with exit code 0
